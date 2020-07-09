@@ -31,7 +31,7 @@ public abstract class BaseApplication extends Application {
         super.onCreate();
         mApplication = this;
         this.mAppModule = new AppModule(this);//提供application
-        this.mClientModule = ClientModule.buidler().baseurl("baidu").build();
+        this.mClientModule = ClientModule.buidler().baseurl("测试").build();
     }
 
 
